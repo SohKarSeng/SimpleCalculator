@@ -11,7 +11,7 @@ import java.io.IOException;
         @Override
         public void start(Stage stage) throws IOException {
             FXMLLoader fxmlLoader = new FXMLLoader(com.example.simplecalculator.HelloApplication.class.getResource("hello-view.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 500, 400);
+            Scene scene = new Scene(fxmlLoader.load(), 600, 600);
             stage.setTitle("Hello!");
             stage.setScene(scene);
             stage.show();
